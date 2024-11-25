@@ -1,0 +1,106 @@
+
+
+.h_sc{
+
+    @apply bg-[#FFFFFF] lg:p-[30px] lg:h-[230px]  rounded-[10px] border-[2px] border-[#DDDDDD] 
+    
+    h-[230px] py-[10px] px-[10px] lg:w-[370px] w-full
+}
+.h_img{
+
+    @apply flex gap-[20px] items-center
+}
+
+.h_img .h_p h1{
+
+    @apply font-Rubik font-medium text-[18px] text-[#0B132A]
+}
+
+.h_img .h_p p{
+
+    @apply font-Rubik font-normal text-[14px] text-[#4F5665]
+}
+
+.head{
+
+    @apply flex justify-between items-center
+}
+
+.h_icon{
+
+    @apply flex gap-[10px] items-center
+}
+
+.h_icon h2{
+    
+    @apply text-[16px] font-Rubik font-normal text-[#0B132A]
+}
+
+.h_icon .h_star{
+
+    @apply text-[#FEA250] w-[16px]
+}
+
+.h_para{
+
+    @apply mt-[20px]
+}
+
+.h_para p{
+
+    @apply font-Rubik font-normal text-[16px] text-[16px]
+}
+
+.slick-dots li button{
+
+    @apply text-[0px] lg:w-[15px] lg:h-[15px] rounded-full bg-[#DDE0E4]
+
+    w-[8px] h-[8px]
+}
+
+.slick-dots{
+
+    @apply !flex gap-[15px] justify-start mt-[60px]
+}
+
+.slick-dots .slick-active button{
+
+    @apply bg-[#F53838]
+}
+
+
+
+
+
+.slick-arrow{
+
+    @apply lg:text-[60px] text-[#F53838] absolute z-[111] text-[40px]
+}
+
+.mySlider{
+
+    @apply relative
+}
+
+.slick-next{
+
+    @apply right-[220px] lg:top-[270px] top-[250px] lg:right-[190px]
+}
+
+.slick-prev{
+
+    @apply right-[260px] lg:top-[270px] top-[250px]
+}
+
+/* .happy_main_card:nth-child(1){
+    @apply border-[2px] border-[#F53838] rounded-[10px] 
+} */
+
+/* .happy_main_card{
+
+    @apply flex justify-center items-center 
+}  */
+
+
+
+

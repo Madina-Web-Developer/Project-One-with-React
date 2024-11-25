@@ -1,0 +1,62 @@
+
+.navbar{
+
+    @apply pt-[50px] hidden lg:block 
+}
+
+
+.main_row{
+
+    @apply flex justify-between items-center
+}
+
+.main_row .manu_logo{
+
+    @apply w-[149px] inline-block
+}
+
+.manu ul{
+
+    @apply flex gap-[40px]
+}
+
+.manu ul li a{
+
+  @apply text-[16px] font-Rubik font-normal text-[#4F5665]
+}
+
+
+.buttons{
+
+    @apply flex gap-5
+}
+
+.buttons a{
+
+    @apply text-[16px] py-[13px] px-[45px] font-Rubik font-medium inline-block rounded-[50px] border transition duration-[.3s]
+}
+
+.button2{
+
+    @apply border-[1px] border-[#F53855] text-[#F53855] 
+}
+
+.button2:hover{
+
+    @apply text-[#0B132A] border-transparent
+}
+
+.button1:hover{
+
+  @apply  border-[1px] border-[#F53855] text-[#F53855]
+}
+
+.button1{
+
+    @apply border-transparent
+}
+
+
+
+
+

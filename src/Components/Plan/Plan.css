@@ -1,0 +1,111 @@
+.plan_madina{ 
+
+ @apply pt-[80px] 
+}
+
+
+.mina_plan_text h1{
+
+ @apply font-Rubik font-medium text-[25px] text-[#0B132A] text-center
+    
+    mb-[20px] md:text-[35px]
+
+}
+
+.mina_plan_text p{
+
+ @apply font-Rubik font-normal text-[16px] text-[#4F5665] w-[250px] text-center m-auto mb-[53px]
+
+    md:w-[555px]
+}
+
+.m_s_card{
+
+    @apply w-[360px] bg-[#fff] border-[#DDDDDD] border-[2px] rounded-[10px]  pt-[80px] pb-[50px] 
+
+    flex-col items-center flex transition duration-500
+
+}
+
+
+
+
+.mina_p_img p{
+
+    @apply text-[18px] font-Rubik font-medium text-[#0B132A] mt-[30px] text-center
+}
+
+.plan_icon{
+
+    @apply gap-[19px] flex  items-center
+}
+
+.p_icon{
+
+    @apply h-[24px] w-[24px] text-[#2FAB73]
+}
+
+.mina_list{
+
+    @apply mt-[30px]
+}
+.icon_list { 
+
+    @apply flex flex-col gap-[13px]
+}
+
+.plan_icon p{
+
+    @apply font-Rubik font-normal text-[14px]
+ text-[#4F5665]
+
+}
+
+.plan_b1 h1{
+
+    @apply mt-[130px] font-Rubik font-medium text-[25px] text-[#0B132A] mb-[30px] text-center
+
+    
+}
+
+.plan_b2 h1{
+
+    @apply mt-[90px] font-Rubik font-medium text-[25px] text-[#0B132A] mb-[30px] text-center
+
+    
+}
+
+.plan_b3 h1{
+
+    @apply mt-[50px] font-Rubik font-medium text-[25px] text-[#0B132A] mb-[30px] text-center
+
+    
+}
+
+.p_button{
+
+    @apply py-[13px] px-[62px]  rounded-[50px] text-[16px] font-Rubik font-bold text-BandColor border-[2px] border-BandColor 
+
+    transition duration-500
+}
+
+.p_button:hover{
+
+    @apply text-[#fff] bg-BandColor shadow-[0px_5px_27px_-2px_#ff7070]
+}
+
+.m_s_card:hover{
+
+    @apply border-red-500 shadow-[0px_0px_20px_-0px_gray]
+}
+
+.mina_main_card{
+
+    @apply flex gap-[50px] items-center justify-center flex-wrap
+}
+
+
+ .pspam{
+
+    @apply text-[25px] font-Rubik font-normal text-[#4F5665]
+}

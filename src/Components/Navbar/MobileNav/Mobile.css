@@ -1,0 +1,22 @@
+.mobile{
+    @apply lg:hidden pt-5
+}
+
+.m_logo{
+
+    @apply w-[80px] inline-block
+}
+.m_row{
+
+    @apply flex justify-between
+}
+
+.m_icon{
+
+    @apply w-5
+}
+
+.m_res{
+
+    @apply bg-red-500 w-full text-center
+}

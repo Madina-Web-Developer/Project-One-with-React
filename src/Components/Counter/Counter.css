@@ -1,0 +1,57 @@
+.mina_counter{
+
+    @apply mt-[103px] 
+}
+
+.mina_count{
+
+    @apply py-[37px] px-[90px] bg-white flex flex-wrap
+    
+    items-center shadow-[0px_33px_100px_0px_rgba(0,_0,_0,_0.2)] rounded-[10px]
+    gap-[35px] justify-between
+
+
+}
+
+.live_counter{
+
+    @apply flex  items-center gap-[36px]
+}
+
+.icon{
+
+    @apply text-BandColor bg-[#FFECEC] py-[16px] px-[16px] rounded-[70px]
+
+    
+}
+
+.m{
+    @apply h-[24px] w-[24px]
+}
+
+.number p{
+
+    @apply text-[20px] text-[#4F5665] font-Rubik font-normal
+}
+
+.stick{
+
+    @apply h-[126px] bg-[#EEEFF2] rounded w-[2px] hidden md:block
+}
+
+.s_count{
+    @apply flex items-center gap-[129px]
+}
+
+.live_counter2{
+
+    @apply flex  items-center gap-[36px] pr-[120px]
+}
+
+.s_c{
+
+    @apply flex font-Rubik font-bold text-[25px]
+}
+
+
+

@@ -1,0 +1,60 @@
+.Footer{
+
+    @apply pt-[181px] pb-[142px] px-[50px] bg-[#F8F8F8]
+
+    
+}
+
+.madina_footer{
+
+    @apply flex justify-between items-center flex-wrap gap-8
+}
+
+.part_1 img{
+
+    @apply w-[149px]
+}
+
+.part_1 p{
+
+    @apply lg:w-[340px] text-[16px] font-Rubik text-[#4F5665] mt-[26px] w-full
+}
+
+.part_1 p span{
+
+    @apply font-medium text-[#4F5665] 
+}
+
+.part_1 .f_icons{
+
+    @apply w-[45px] h-[45px] flex mt-[30px] gap-[20px] justify-items-start
+}
+
+
+.part_1 h3{
+
+    @apply text-[16px] font-normal font-Rubik text-[#AFB5C0] mt-[30px]
+
+}
+
+.part_2 .f_p{
+
+    @apply text-[18px] font-medium font-Rubik text-[#0B132A]
+}
+
+.part_2{
+
+    @apply flex lg:gap-[126px] flex-wrap gap-[70px] justify-between 
+
+}
+
+.product{
+
+    @apply flex flex-col gap-[10px]
+}
+
+.product h2{
+
+    @apply text-[16px] font-Rubik font-normal text-[#4F5665]
+}
+

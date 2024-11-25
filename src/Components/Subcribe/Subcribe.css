@@ -1,0 +1,41 @@
+.madina_sub{
+
+    @apply lg:py-[58px] lg:px-[70px] bg-white flex lg:justify-between items-center rounded-[10px] mt-[65px]
+
+
+    shadow-[0px_33px_100px_0px_rgba(0,_0,_0,_0.2)]  flex-wrap justify-center gap-6
+
+   py-[20px] px-[40px]
+}
+
+
+.sub_button button{
+
+    @apply py-[12px] px-[50px] bg-BandColor rounded-[10px]  
+
+
+    shadow-[0px_5px_27px_-2px_#ff7070] transition duration-[.4s]
+
+    lg:py-[17px] lg:px-[78px] inline-block
+
+    
+}
+
+.sub_button button:hover{
+
+    @apply bg-red-400 text-gray-100
+}
+
+.sub_text h1{
+
+    @apply lg:w-[372px] font-Rubik font-medium lg:text-[35px] text-[#0B132A] 
+
+    w-full
+
+}
+
+.sub_text p{
+  
+    @apply lg:w-[410px] text-[16px] font-Rubik font-normal text-[#4F5665] mt-[20px]
+     w-full
+}

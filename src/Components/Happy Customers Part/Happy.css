@@ -1,0 +1,15 @@
+.HappyCustomer{
+
+    @apply mt-[50px]
+}
+
+.happy_head h1{
+
+    @apply text-[35px] font-medium text-[#0B132A] m-auto text-center lg:w-[448px] w-full
+}
+
+.happy_head p{
+
+    @apply text-[16px] text-[#4F5665] font-Rubik font-normal w-full lg:w-[555px] m-auto text-center mt-[20px] mb-[60px]
+}
+

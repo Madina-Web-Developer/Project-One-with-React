@@ -1,0 +1,136 @@
+.map_head h1{
+
+    @apply text-[35px] font-Rubik font-medium text-[#0B132A] text-center lg:w-[383px] m-auto pt-[150px] w-full
+}
+
+.map_head p{
+
+    @apply font-Rubik font-normal text-[16px] text-[#4F5665] w-full lg:w-[555px] text-center mt-[20px] m-auto
+}
+
+.map_span{
+
+    @apply font-Rubik font-medium text-[16px] text-[#4F5665]
+}
+
+.map_main_img{
+
+    @apply lg:w-[1060px] m-auto lg:mt-[156px] mt-[100px] w-full relative
+}
+
+.maplocation{
+
+    @apply  absolute;
+
+    animation: pulse infinite linear 1.5s;
+}
+
+@keyframes pulse {
+
+    0%{
+      
+      transform: scale(0.5);
+    }
+  
+    50% {
+  
+      transform: scale(0.8);
+    }
+  
+    100% {
+  
+      transform: scale(0.5);
+    }
+  }
+
+.map1{
+
+    @apply  lg:top-[260px] lg:left-[500px] top-[25px] left-[20px]
+
+}
+
+.map2{
+
+    @apply lg:top-[143px] lg:left-[733px] top-[60px] left-[120px]
+}
+
+.map3{
+
+    @apply lg:top-[142px] lg:left-[146px] top-[10px] left-[200px]
+}
+
+.map4{
+
+    @apply lg:top-[30px] lg:left-[352px] top-[18px] left-[150px]
+}
+
+.map5{
+
+    @apply lg:top-[77px] lg:left-[34px] top-[5px] left-[80px]
+}
+.map6{
+
+    @apply lg:top-[90px] lg:left-[192px] top-[95px] left-[71px]
+}
+
+.map7{
+
+    @apply lg:top-[228px] lg:left-[172px] top-[50px] left-[205px]
+}
+
+.map8{
+
+    @apply lg:top-[131px] lg:left-[284px] top-[18px] left-[250px]
+}
+
+.map9{
+
+    @apply lg:top-[369px] lg:left-[303px] top-[100px] left-[230px]
+}
+
+.map10{
+
+    @apply lg:top-[409px] lg:left-[552px] top-[100px] left-[140px]
+}
+
+.map11{
+
+    @apply lg:top-[301px] lg:left-[600px] hidden lg:block
+}
+
+.map12{
+
+    @apply lg:top-[407px] lg:left-[878px] hidden lg:block
+}
+
+.map13{
+
+    @apply lg:top-[81px] lg:left-[900px] hidden lg:block
+}
+.map14{
+
+    @apply lg:top-[124px] lg:left-[604px]
+
+    lg:block
+
+    hidden
+}
+
+.map15{
+
+    @apply lg:top-[45px] lg:left-[772px] lg:block
+
+    hidden
+}
+
+.map16{
+
+    @apply lg:top-[244px] lg:left-[775px] 
+    lg:block
+    hidden
+}
+
+.mapmain2{
+
+    @apply flex items-center justify-center md:gap-[60px] w-full flex-wrap lg:mt-[35px] mt-[80px] gap-5
+}

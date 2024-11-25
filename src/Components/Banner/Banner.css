@@ -1,0 +1,54 @@
+.mina_banner{
+    @apply pt-[101px]
+}
+
+.mina_main_row{
+    @apply flex justify-between items-center gap-[41px]  flex-col-reverse 
+
+   md:flex-row
+
+
+}
+.md_text h1{
+
+    @apply text-secounderycolor text-[20px] font-medium w-[315px] font-Rubik
+
+    md:text-[40px] md:w-[555px]
+
+}
+
+.md_text h1 span{
+
+    @apply font-bold
+}
+
+.md_text p{
+
+    @apply text-[16px] font-Rubik font-normal text-[#4F5665] w-[300px] mt-[20px] mb-[50px]
+
+     md:w-[555px]
+
+}
+
+.md_text p span{
+
+    @apply font-medium
+}
+
+.button{
+
+    @apply py-[12px] px-[45px] bg-BandColor rounded-[10px]  
+
+
+    shadow-[0px_5px_27px_-2px_#ff7070] transition duration-[.4s]
+
+    md:py-[17px] md:px-[78px] inline-block
+
+    
+}
+
+.button:hover{
+
+    @apply bg-red-400 text-gray-100
+}
+

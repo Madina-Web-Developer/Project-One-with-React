@@ -1,0 +1,61 @@
+.user_mina{
+
+    @apply pt-[95px] pb-[125px] 
+}
+
+
+
+.mina_main{
+
+    @apply flex   items-center  mt-[53px]  flex-wrap justify-around
+}
+
+.mina_img{
+
+    @apply w-[508px] 
+}
+.use_icon{
+
+    @apply flex items-center gap-[10px] mt-[21px]
+}
+
+.use_icon .c{
+
+    @apply text-[#2FAB73]  w-[24px] h-[24px] rounded
+}
+
+.madina_text{
+
+    @apply mt-[20px]  font-Rubik font-normal text-[16px] text-[#4F5665]
+
+    w-[300px]
+
+    md:text-[15px] md:w-[427px]
+}
+
+.mina_text h1{
+
+    @apply text-[22px] font-Rubik font-medium text-[#0B132A] w-[300px] 
+
+    md:text-[35px] md:w-[383px]
+
+    
+}
+
+.use-icon p{
+
+    @apply font-Rubik font-normal text-[14px] text-[#4F5665] w-[250px]
+
+   
+}
+
+.main_mina_icon{
+
+    @apply flex-row mt-[23px] 
+}
+
+.mina_text{
+
+   
+    
+}

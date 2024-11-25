@@ -1,0 +1,58 @@
+.div{
+
+    @apply bg-[#FBF8EF] w-full h-screen flex justify-center items-center 
+}
+
+.madina_log{
+
+    @apply p-6 bg-[#A0DEFF] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]
+
+    rounded-md w-[350px] 
+}
+
+h1{
+
+    @apply font-bold font-serif text-[25px] text-[#524C42] text-center
+     
+    mt-2
+}
+
+h2{
+    @apply font-medium text-[15px] text-[#524C42] mt-3
+}
+
+p{
+    @apply font-bold text-[15px] text-[#AF8260] mt-3
+}
+
+span{
+    @apply text-[16px] font-bold text-[#41B06E] hover:border-b-[1px] hover:border-black hover:text-[#7ABA78] 
+}
+
+input{
+
+    @apply bg-white w-full h-[30px] outline-none pl-2 text-[14px] text-[#524C42] font-medium pt-2 pb-2
+
+    mt-2 mb-2
+} 
+
+form{
+
+    @apply mt-7
+}
+
+.log_button{
+
+    @apply flex justify-end
+}
+
+.l_b{
+
+    @apply p-1 w-[80px] bg-[#41B06E] text-[18px] font-semibold text-white rounded-md
+
+     active:scale-[1.1] mt-2
+}
+
+h3{
+    @apply text-[10px] text-red-600 font-medium
+}
